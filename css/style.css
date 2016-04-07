@@ -75,12 +75,15 @@ header #modal-btn{
 
 }
 
+
+
 /*INTRO END*/
 
 
 /*ABOUT START*/
 
 .about-section{
+	display: none;
 	padding:0px !important;
 }
 
@@ -93,12 +96,15 @@ header #modal-btn{
   	margin: 0px;
 }
 
+#intro
 
 /*ABOUT END*/
 
 
 /*RESUME START*/
-
+.services-section{
+		display: none;
+}
 
 /*RESUME END*/
 
