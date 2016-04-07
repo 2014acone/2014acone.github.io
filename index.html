@@ -1,18 +1,225 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+
+
+<!-- START HEAD -->
 <head>
-  <meta charset="utf-8">
-  <title>Amos Cone</title>
-  <!-- Add some style to your site, see http://getbootstrap.com for details -->
-    <style type="text/css">
-     body {background-color:blue}
-    </style>
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Amos Cone</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-  <h1>wassup</h1>
-  <img src="giphy.gif"/>
+<!-- END HEAD -->
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- START NAV SECTION-->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Amos Cone</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#services">Services</a>
+                        </li>
+                    </ul>
+                    <a href="#contact-modal" data-toggle="modal" class="btn btn-warning pull-right" id="modal-btn">Contact Me</a>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+    </header>
+
+    <!-- END NAV SECTION -->
+
+
+    <!-- START MODAL CODE -->
+
+    <div class="modal fade" id="contact-modal"> <!-- Start Modal -->
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;
+                    </button>
+                    <h4>Contact Me</h4>
+                </div>
+                <div class="modal-body">
+                    
+                    <div style="line-height:.6;">
+                        <br>
+                        <p> Phone: (734) 864-2333 </p>
+                        <br><br>
+                        <p> Address: 1700 Geddes Ave Apt B15 </p>
+                        <p> Ann Arbor, MI 48014</p>
+                    </div>
+
+                    <hr>
+                    
+                    <p>Or Email Me:</p>
+
+                    <!-- START FORM  -->
+                    
+                    <form action="https://formspree.io/2014acone@gmail.com" method="POST" class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label" for="inputName">Name</label>
+                            <div class="col-lg-10">
+                                <input class="form-control" id="inputName" placeholder="Name" type="text" name="name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                            <div class="col-lg-10">
+                                <input class="form-control" id="inputEmail" placeholder="Your email" type="email" name="_replyto" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label" for="inputSubject">Subject</label>
+                            <div class="col-lg-10">
+                                <input class="form-control" id="inputSubject" placeholder="Subject" type="text" name="_subject" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                            <div class="col-lg-10" id="submit-form">
+                                <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3" name='message' required></textarea>
+                                <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                                <button class="btn btn-success pull-right" type="submit">Send</button>
+                                <input type="hidden" name="_next" value="{{backform}}"/>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- END FORM -->
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- end contact modal -->
+
+    <!-- END MODAL CODE -->
+
+
+    <!--  START Intro Section -->
+
+    <section id="intro" class="intro-section">
+
+        <!-- START JUMBO -->
+
+        <div class="jumbotron" id="intro-jumbo">
+            <div class="container">
+                <img src="img/prisonmike.png" alt="Amos" class="img-responsive img-circle">
+            </div>
+        </div>
+
+        <!-- END JUMBO -->
+
+        <!-- START INTRO CONTAINER -->
+
+        <div class="container" id="intro-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1><strong>Hi, I'm Amos!</strong></h1>
+                    <a class="btn btn-default page-scroll" href="#about">Learn More About Me</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- END INTRO CONTAINER -->
+
+    </section>
+
+    <!-- END INTRO SECTION -->
+
+
+     <!-- About Section -->
+    <section id="about" class="about-section">
+
+
+        <!-- START JUMBO -->
+
+        <div class="jumbotron" id="about-jumbo">
+            <div class="container">
+            </div>
+        </div>
+
+        <!-- END JUMBO -->
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Services Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- START JAVASCRIPT -->
+    <div>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+    </div>
+    <!-- END JAVASCRIPT -->
 </body>
+
 </html>
