@@ -1,0 +1,160 @@
+
+/*BODY START*/
+
+
+body{
+	font-family: "Avenir Next", arial;
+}
+
+/*BODY END*/
+
+/*NAV BAR START*/
+.nav-bar, .navbar-default{
+	margin-bottom: 0px;
+	background-color: #2C3E50;
+	border:none;
+}
+
+.navbar-nav li a, .navbar-brand {
+	color: #ECF0F1 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ECF0F1;
+}
+
+.navbar-nav .active a {
+	background-color: #34495E !important;
+}
+
+.nav-bar .btn {
+	text-align: center;
+}
+
+/*NAV BAR END*/
+
+/*CONTACT MODAL START*/
+
+header #modal-btn{
+	margin-top: 7px;
+}
+
+#submit-form .btn{
+	margin-top: 20px;
+}
+
+/*CONTACT MODAL END*/
+
+/*INTRO START*/
+
+#intro-jumbo {
+	background-color: #34495E;
+	height: 50vh;
+	color: #ECF0F1 !important;
+	text-align: center;
+  	vertical-align: bottom;
+  	padding: 0px;
+  	margin: 0px;
+  	padding-top: 5vh;
+}
+
+#intro-jumbo img {
+	display: inline-block;
+	max-height:40vh;
+	text-align: center;
+}
+
+#intro-container{
+	text-align: center;
+}
+
+#intro-container h1 {
+	padding-top: 15vh;
+	margin-top: 0px;
+	font-size: 10vh;
+
+}
+
+
+
+/*INTRO END*/
+
+
+/*ABOUT START*/
+
+.about-section{
+	padding-top: 0px;
+	padding-bottom: 250px;
+	height: 1300px;
+}
+
+.about-section .jumbotron {
+	height: 400px;
+	background-color: #34495E;
+	text-align: center;
+  	vertical-align: bottom;
+  	padding: 0px;
+  	margin: 0px;
+}
+
+.about-section .container {
+	padding-top: 20px;
+}
+
+.about-section .panel {
+	padding: 10px 30px 10px;
+	height: 660px;
+}
+
+.about-section .panel h3{
+	margin: 10px 0px 20px;
+}
+
+.about-section h2{
+	color: #ECF0F1;
+	padding-top: 150px;
+	font-size: 100px;
+}
+
+.about-section p{
+	text-align: left;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+
+
+
+/*ABOUT END*/
+
+
+/*RESUME START*/
+.services-section{
+		display: none;
+}
+
+/*RESUME END*/
+
+
+/*FOOTER START*/
+
+.footer{
+	background-color: #34495E;
+}
+
+.footer h4{
+	color: #ECF0F1;
+}
+
+.footer p{
+	color: #ECF0F1;
+}
+
+.footer a {
+	color: #ECF0F1;
+	margin-right: 15px;
+}
+
+/*FOOTER END*/
+
+

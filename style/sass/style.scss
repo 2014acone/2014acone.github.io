@@ -1,0 +1,224 @@
+
+/*BODY START*/
+
+
+body{
+	font-family: "Avenir Next", arial;
+}
+
+/*BODY END*/
+
+/*NAV BAR START*/
+
+.navbar-default{
+		margin-bottom: 0px;
+		background-color: #2C3E50;
+		border:none;
+
+		.navbar-brand {
+		color: white !important;
+		}
+
+		.navbar-nav{
+			li{
+				a{
+					color: white;
+				}
+			}
+		}
+
+		.active a {
+			background-color: white !important;
+			color: #2C3E50;
+		}
+		.navbar-toggle{
+			.icon-bar {
+				background-color: white;
+			}
+		}
+}
+
+#modal-btn{
+	float:right;
+}
+
+@media (max-width: 768px){
+    #modal-btn{
+        float: none;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*NAV BAR END*/
+
+/*CONTACT MODAL START*/
+
+header #modal-btn{
+	margin-top: 7px;
+}
+
+#submit-form .btn{
+	margin-top: 20px;
+}
+
+/*CONTACT MODAL END*/
+
+/*INTRO START*/
+
+.intro-section{
+	#intro-jumbo {
+		background-color: #34495E;
+		color: #ECF0F1 !important;
+		text-align: center;
+	  	vertical-align: bottom;
+	  	padding: 0px;
+	  	margin: 0px;
+  		padding-top: 50px;
+
+  		img {
+			display: inline-block;
+			max-height:40vh;
+			text-align: center;
+			margin: 50px;
+		}
+	}
+	#intro-container{
+		text-align: center;
+
+		h1 {
+			padding-top: 50px;
+			padding-bottom: 20px;
+			margin-top: 0px;
+			font-size: 10vh;
+		}
+		
+		padding-bottom: 50px;
+
+	}
+	.btn{
+		margin-top: 20px;
+	}
+}
+
+
+
+
+/*INTRO END*/
+
+
+/*ABOUT START*/
+
+.about-section{
+	padding-top: 0px;
+	background-color: #ECF0F1;
+
+	.jumbotron {
+		height: 400px;
+		background-color: #34495E;
+		text-align: center;
+	  	vertical-align: bottom;
+	  	padding: 0px;
+	  	margin: 0px;
+	}
+	.container {
+		padding-top: 20px;
+	}
+
+	.panel {
+		padding: 40px;
+		padding-top: 15px;
+
+		 h3{
+			margin: 10px 0px 20px;
+		}
+	}
+
+	img {
+		max-width: 250px;
+		text-align: center;
+		display: inline-block;
+	}
+
+	h2{
+		color: #ECF0F1;
+		padding-top: 150px;
+		font-size: 100px;
+	}
+
+	p{
+		text-align: left;
+		font-size: 15px;
+		margin-top: 30px;
+	}
+
+	#about-abe{
+		p {
+			text-align: left;
+		}
+	}
+
+}
+
+.intro-title{
+	margin: 50px;
+	margin-bottom: 15px;
+	margin-left: 35px;
+}
+
+#abe-website-row, #ktp-website-row{
+	display: flex;
+  	align-items: center;
+}
+
+
+/*ABOUT END*/
+
+
+/*RESUME START*/
+
+.resume-section{
+	.jumbotron {
+		height: 400px;
+		background-color: #34495E;
+		text-align: center;
+	  	vertical-align: bottom;
+	  	padding: 0px;
+	  	margin: 0px;
+	}
+	h2{
+		color: #ECF0F1;
+		padding-top: 150px;
+		font-size: 100px;
+		margin-top: 0px;
+	}
+}
+
+/*RESUME END*/
+
+
+/*FOOTER START*/
+
+.footer{
+
+	padding-top: 15px;
+
+	background-color: #2C3E50;
+
+	h4{
+		color: #ECF0F1;
+	}
+
+	p{
+		color: #ECF0F1;
+	}
+
+	a {
+		color: #ECF0F1;
+		margin-right: 15px;
+	}
+}
+
+/*FOOTER END*/
+
+
