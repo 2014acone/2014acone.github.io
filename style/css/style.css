@@ -47,7 +47,10 @@ header #modal-btn {
     display: inline-block;
     max-height: 40vh;
     text-align: center;
-    margin: 50px; }
+    margin: 50px; 
+    margin-right:0px;
+    margin-left:0px;
+  }
 .intro-section #intro-container {
   text-align: center;
   padding-bottom: 50px; }
