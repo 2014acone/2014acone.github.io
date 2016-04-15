@@ -166,9 +166,29 @@ header #modal-btn{
 	margin-left: 35px;
 }
 
-#abe-website-row, #ktp-website-row{
-	display: flex;
-  	align-items: center;
+@media (min-width: 768px){
+
+	#abe-website-row{
+		display: flex;
+	  	align-items: center;
+	}
+}
+
+@media (min-width: 768px){
+
+	#ktp-website-row{
+
+		display: flex;
+	  	align-items: center;
+	}
+}
+
+@media (max-width: 768px){
+	.intro-title{
+		text-align: center !important;
+	}
+
+	
 }
 
 
